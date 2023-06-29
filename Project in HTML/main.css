@@ -1,0 +1,109 @@
+/* main.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, figure, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set global font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Figure and figcaption styles */
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #777;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+    background-color: #fff;
+}
+
+/* Article styles */
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+article p {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    margin-bottom: 10px;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+table th {
+    background-color: #f2f2f2;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header figure img,
+    footer {
+        display: none;
+    }
+}
+

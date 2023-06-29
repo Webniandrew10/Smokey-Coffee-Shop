@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Andrew Almodvar">
+    <meta name="desctiption" content="Contact information 
+    for The Smokey Coffee Shop">
+    <title>Contact Us - SCS</title>
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/#about">About Me <abbr title="The smokey coffe Shop
+                        ">SCS</abbr> </a>
+                </li>
+                <li>
+                    <a href="/#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store Hours</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/coffee close up.jpg" alt="coffe background" title="Coffee and Joint"
+            width="400" height="260">
+        </figure>
+        <figcaption>
+            Coffee and Shuk
+        </figcaption>
+    </header>
+    <hr>
+    <main>
+        <section>
+        <h2>Our Contact Form</h2>
+
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send us a message</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" 
+                    placeholder="your name" 
+                    required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" 
+                    placeholder="your email" 
+                    required>
+                </p>
+                <p>
+                    <label for="message">Your Message:</label>
+                    <br>
+                    <textarea name="" id="" cols="30" 
+                    rows="10" placeholder="type Your Message"></textarea>
+                </p>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+    <section>
+        <h2>Our Location</h2>
+        <address>
+            2 San Sebastian St, Naga, Camarines Sur
+            <br> <br>
+            Phone: <a href="tel:55555555555">099-161-04720</a>
+        </address>
+    </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Copyright &copy; The Smokey Coffee Shop</p>
+    </footer>
+</body>
+</html>
